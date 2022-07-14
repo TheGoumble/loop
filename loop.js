@@ -2,12 +2,23 @@
 //     statement
 // }
 
-for(let i = 0; i < 10; i++){
-    console.log('Iteration Number', i)
-}
-
+// for (let i = 0; i < 10; i++) {
+//   console.log("Iteration Number", i)
+// }
 
 //initialiaztion = Typically used to initalize a counter variable
 //conditon - Runs untill condition is false
 //iteration - Generally used to update or incraement the counter variable
 //statement - code that is excuted while the condition is true
+
+const array = [2, 3, 3, 5, 3, 2, 4]
+
+//print forward
+// for (let i = 0; i < array.length; i++) {
+//   console.log(array[i])
+// }
+
+//print backwards
+for (let i = array.length - 1; i > -1; i--) {
+  console.log(array[i])
+}
