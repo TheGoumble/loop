@@ -30,32 +30,17 @@ const array = [2, 3, 3, 5, 3, 2, 4]
 // }
 //  console.log(sum)
 
-//infinite loop crtl + c to stop
+
+//infinite loop (crtl + c to stop)
 // for (let i = 1; i > 0; i++) {
 //   console.log(i)
 // }
 
-for (let i = 10; i >= 0; i--) {
-  if (i === 0) {
-    console.log("BLAST OFF")
-  } else {
-    return
-  }
-  console.log(i)
+
+for(let i = 10; i >= 0; i--){
+    if (i === 0){
+        console.log('BLAST OFF')
+        return;
+    }
+    console.log(i)
 }
-
-
-/* do whi;e... loop
-do{
-    statement
-}while(condition)
-
-let i = 0 //initialization
-do{
-    i++ //iteration
-    console.log('this is iteration #', i)
-}while(i < 10)
-
-do loop - this loop will execute the statement at least once, then the condition is chacked*/
-
-
